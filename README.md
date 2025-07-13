@@ -2,6 +2,8 @@
 
 A sophisticated **Retrieval-Augmented Generation (RAG)** chatbot designed for intelligent loan approval analysis. This system combines document retrieval with generative AI to provide data-driven insights about loan approval patterns and personalized loan prediction capabilities.
 
+Link: [Loan Approval Chatbot](https://loan-approval-chatbot.streamlit.app/)
+
 ## About the Project
 
 This project implements a comprehensive loan approval analysis system that combines:
