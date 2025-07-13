@@ -1,0 +1,122 @@
+{
+  "dataset_info": {
+    "total_records": 1000,
+    "features": [
+      "Loan_ID",
+      "Gender",
+      "Married",
+      "Dependents",
+      "Education",
+      "Self_Employed",
+      "ApplicantIncome",
+      "CoapplicantIncome",
+      "LoanAmount",
+      "Loan_Amount_Term",
+      "Credit_History",
+      "Property_Area",
+      "Loan_Status",
+      "TotalIncome",
+      "IncomeRatio",
+      "LoanAmountRatio",
+      "Gender_encoded",
+      "Married_encoded",
+      "Dependents_encoded",
+      "Education_encoded",
+      "Self_Employed_encoded",
+      "Property_Area_encoded",
+      "Loan_Status_encoded"
+    ],
+    "loan_approval_rate": 0.681,
+    "average_loan_amount": 356.45,
+    "average_income": 6208.836
+  },
+  "feature_insights": {
+    "income_analysis": {
+      "average_applicant_income": 4100.856,
+      "average_coapplicant_income": 2107.98,
+      "income_distribution": {
+        "count": 1000.0,
+        "mean": 6208.836,
+        "std": 2504.3702432786213,
+        "min": 278.0,
+        "25%": 4336.5,
+        "50%": 6253.5,
+        "75%": 8073.0,
+        "max": 11889.0
+      }
+    },
+    "loan_analysis": {
+      "loan_amount_stats": {
+        "count": 1000.0,
+        "mean": 356.45,
+        "std": 197.16550848902995,
+        "min": 9.0,
+        "25%": 187.0,
+        "50%": 354.0,
+        "75%": 528.25,
+        "max": 699.0
+      },
+      "loan_term_distribution": {
+        "240": 126,
+        "36": 125,
+        "12": 117,
+        "180": 113,
+        "120": 111,
+        "84": 110,
+        "300": 102,
+        "60": 100,
+        "360": 96
+      },
+      "credit_history_distribution": {
+        "0": 502,
+        "1": 498
+      }
+    },
+    "demographic_analysis": {
+      "gender_distribution": {
+        "Female": 510,
+        "Male": 490
+      },
+      "education_distribution": {
+        "Not Graduate": 524,
+        "Graduate": 476
+      },
+      "property_area_distribution": {
+        "Semiurban": 342,
+        "Rural": 342,
+        "Urban": 316
+      }
+    }
+  },
+  "approval_patterns": {
+    "by_gender": {
+      "Female": 0.6901960784313725,
+      "Male": 0.6714285714285714
+    },
+    "by_education": {
+      "Graduate": 0.6533613445378151,
+      "Not Graduate": 0.7061068702290076
+    },
+    "by_property_area": {
+      "Rural": 0.6257309941520468,
+      "Semiurban": 0.695906432748538,
+      "Urban": 0.7246835443037974
+    },
+    "by_credit_history": {
+      "0": 0.6653386454183267,
+      "1": 0.6967871485943775
+    }
+  },
+  "sample_questions": [
+    "What is the loan approval rate?",
+    "How does income affect loan approval?",
+    "What is the average loan amount?",
+    "How does credit history impact approval?",
+    "Which property area has the highest approval rate?",
+    "What is the relationship between education and loan approval?",
+    "How does gender affect loan approval rates?",
+    "What are the income requirements for loan approval?",
+    "What is the typical loan term?",
+    "How does having dependents affect loan approval?"
+  ]
+}
