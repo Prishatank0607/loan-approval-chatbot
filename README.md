@@ -25,7 +25,7 @@ The system works with comprehensive loan approval data including:
 - **Target**: Loan approval status (Y/N)
 
 ### Dataset Sources
-- **Primary Dataset**: [Loan Approval Dataset](https://www.kaggle.com/datasets/altruistdelhite04/loan-prediction-problem-dataset)
+- **Primary Dataset**: [Loan Approval Dataset](https://www.kaggle.com/datasets/sonalisingh1411/loan-approval-prediction?select=Training+Dataset.csv)
 ### Dataset Statistics
 - **Total Records**: 614 loan applications
 - **Approval Rate**: ~69%
@@ -199,11 +199,6 @@ streamlit run main.py --server.address=0.0.0.0 --server.port=8501
 
 - **GROQ API**: [https://console.groq.com/](https://console.groq.com/)
 - **Streamlit Cloud**: [https://share.streamlit.io/](https://share.streamlit.io/)
-- **Dataset Source**: [https://www.kaggle.com/datasets/altruistdelhite04/loan-prediction-problem-dataset](https://www.kaggle.com/datasets/altruistdelhite04/loan-prediction-problem-dataset)
+- **Dataset Source**: [https://www.kaggle.com/datasets/altruistdelhite04/loan-prediction-problem-dataset](https://www.kaggle.com/datasets/sonalisingh1411/loan-approval-prediction?select=Training+Dataset.csv)
 - **FAISS Documentation**: [https://faiss.ai/](https://faiss.ai/)
 - **Sentence Transformers**: [https://www.sbert.net/](https://www.sbert.net/)
----
-
-**Happy Chatting! 🚀**
-
-*Built with ❤️ using RAG and AI*
